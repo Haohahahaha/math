@@ -2,7 +2,8 @@ site_name: 浩哈哈哈哈
 theme: 
   name: material
   icon:
-    logo: material/library
+    logo: material/noodles
+  favicon: https://math.haohaha.cn/image/favicon.png
   palette:
     - scheme: default # 日间模式
       primary: deep purple # 上方的
