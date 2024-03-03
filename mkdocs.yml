@@ -45,6 +45,30 @@ plugins:
 
 extra_css:
   - mkdocs/css/no-footer.css # 不使用底部的翻页
+  
+markdown_extensions:
+    # Admonitions
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    # Icons, Emojis
+    - attr_list
+    - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    # Formatting
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    # Diagrams
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+
 extra:
   homepage: http://haohaha.cn
   social: # icons
