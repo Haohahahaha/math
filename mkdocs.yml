@@ -32,10 +32,10 @@ nav:
   - CS笔记: http://cs.haohaha.cn
   - 闲聊波尔卡: http://chat.haohaha.cn
   - OS学习: http://os.haohaha.cn
-
   - 算法打卡: http://alg.haohaha.cn
   - 数学笔记: 
     - index.md
+    - 三大计算: pee-1/pee-1.md
   - 英语笔记: http://eng.haohaha.cn
 
 plugins:
